@@ -19,8 +19,8 @@ export default function Home() {
     });
    
     useEffect(() => {
+        dispatch(actions.getTypes());
         if (initialLoad.current) {
-            dispatch(actions.getTypes());
             dispatch(actions.getAllPokemons());
             initialLoad.current= false;
             return;
