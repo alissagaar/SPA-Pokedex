@@ -24,7 +24,9 @@ Currently, the pokedex manages a database of 40 species of Pokemon. Data Pokemon
 
 ## Home:
 <img height="400" src="./client/src/images/Home.png">
-<img height="400" src="./client/src/images/Home2.png">
+
+## Filter combination with zero results:
+<img height="400" src="./client/src/images/Noresult.png">
 
 ## Detail:
 <img height="400" src="./client/src/images/Detail.png">
