@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c9eb40f7.chunk.css",
+    "main.js": "/static/js/main.d5fe373b.chunk.js",
+    "main.js.map": "/static/js/main.d5fe373b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.61f7524e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.61f7524e.js.map",
+    "static/js/2.99156ca4.chunk.js": "/static/js/2.99156ca4.chunk.js",
+    "static/js/2.99156ca4.chunk.js.map": "/static/js/2.99156ca4.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.c9eb40f7.chunk.css.map": "/static/css/main.c9eb40f7.chunk.css.map",
+    "static/js/2.99156ca4.chunk.js.LICENSE.txt": "/static/js/2.99156ca4.chunk.js.LICENSE.txt",
+    "static/media/ErrorPage.module.css": "/static/media/error_hero.d7862e79.png",
+    "static/media/Home.module.css": "/static/media/hero_1.5d10fc5d.png",
+    "static/media/CreatePokemon.module.css": "/static/media/hero_2.34f595c9.png",
+    "static/media/Landing.module.css": "/static/media/vertical_poke 1.7951c302.png",
+    "static/media/pokemon_logo.11012dfd.png": "/static/media/pokemon_logo.11012dfd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.61f7524e.js",
+    "static/js/2.99156ca4.chunk.js",
+    "static/css/main.c9eb40f7.chunk.css",
+    "static/js/main.d5fe373b.chunk.js"
+  ]
+}

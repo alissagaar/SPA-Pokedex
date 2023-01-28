@@ -1,0 +1,34 @@
+.container{
+    max-width: 1500px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 30px;
+    padding-bottom: 45px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.noMatch{
+    text-align: center;
+}
+
+.noMatch h3{
+    color: #DCF9FD;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.noMatch p{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.noMatchImage{
+    background-image: url(../../../images/stat-snorlax.png);
+    height: 367px;
+    width: 448px;
+}

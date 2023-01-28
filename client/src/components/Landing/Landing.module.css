@@ -1,0 +1,49 @@
+.heroLanding{
+    background-image: url(../../images/horizontal_poke.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.button{
+    position: absolute;
+    top: 465px;
+    left: 871px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: transparent;
+    border: none;
+    color: #53555A;
+    font-size: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.button:hover{
+    color: #DDFAFE;
+}
+
+@media only screen and (max-width: 600px) {
+    .heroLanding {
+        background-image: url(../../images/vertical_poke\ 1.png);
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    .button{
+        position: absolute;
+        top: 425px;
+        left: 195px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: transparent;
+        border: none;
+        color: #DDFAFE;
+        font-size: 30px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}

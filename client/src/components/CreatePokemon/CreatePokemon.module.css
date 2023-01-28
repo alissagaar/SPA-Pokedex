@@ -1,0 +1,136 @@
+.heroCreate{
+    max-width: 1500px;
+    margin: auto;
+    display: flex;
+}
+
+.hero{
+    background-image: url(../../images/hero_2.png);
+    width: 1500px;
+    height: 400px;
+}
+
+.hero h1{
+    padding-left: 40px;
+    padding-top: 115px;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.55%;
+    color: white;
+}
+
+.form{
+    max-width: 1500px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: auto;
+}
+
+.fields{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.data{
+    display: flex;
+}
+
+.dataTwo{
+    padding-left: 30px;
+}
+
+.textInput label{
+    color: white;
+}
+
+.textInput input{
+    height: 40px;
+    width: 200px;
+    border: none;
+    color: #797979;
+    text-indent: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.range{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.range label{
+    color: white;
+}
+
+.range input{
+    width: 200px;
+    outline: none;
+    background: #253F6A;
+    border: none;
+}
+
+.range span{
+    color: #797979;
+    font-size: 15px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.types{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.types label{
+    color: white;
+}
+
+.list{
+    color: white;
+    display: grid;
+    grid-template-columns: 110px 110px 110px 110px;
+}
+
+.danger{
+    color: #FFCB05;
+}
+
+.active{
+    width: 435px;
+    height: 52px;
+    border-radius: 12px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    background: #0C2E65;
+    border: none;
+}
+
+.active:hover{
+    cursor: pointer;
+}
+
+.disabled{
+    width: 435px;
+    height: 52px;
+    border-radius: 12px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 700;
+    background: rgba(12, 46, 101, 0.5);
+    border: none;
+}

@@ -1,0 +1,29 @@
+nav{
+    max-width: 1500px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+nav a li{
+    display: inline-block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19.12px;
+    padding-left: 70px;
+}
+
+.logo{
+    width: 150px;
+}

@@ -1,0 +1,36 @@
+.eBox{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.eBox h3{
+    color: #DCF9FD;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.eBox p{
+    color: white;
+    font-size: 18px;
+}
+
+.eBox button{
+    width: 95px;
+    height: 52px;
+    border-radius: 10px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    background: #0C2E65;
+    border: none;
+}
+
+.eBox button:hover{
+    cursor: pointer;
+}
+
+.image{
+    background-image: url(../../images/error_hero.png);
+    height: 173px;
+    width: 406px;
+}
