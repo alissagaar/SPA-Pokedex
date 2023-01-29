@@ -19,16 +19,17 @@ export default function Home() {
     });
    
     useEffect(() => {
-        dispatch(actions.getTypes());
         if (initialLoad.current) {
+            dispatch(actions.getTypes());
             dispatch(actions.getAllPokemons());
             initialLoad.current= false;
             return;
         }
+        dispatch(actions.getTypes());
         dispatch(actions.filterBy(filterPanel.author, filterPanel.type))
         dispatch(actions.sortBy(filterPanel.order))
         console.log(filterPanel.author, filterPanel.type)
-    }, [dispatch, filterPanel])
+    }, [dispatch, filterPanel.author, filterPanel.type, filterPanel.order])
 
     const handleFiltersChange = (e) => {
         setFilterPanel({ 

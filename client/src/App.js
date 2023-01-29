@@ -8,7 +8,8 @@ import PokemonName from './components/PokemonName/PokemonName';
 import Landing from './components/Landing/Landing';
 import s from './App.module.css';
 import Footer from './components/Widgets/Footer/Footer';
-
+import axios from 'axios';
+axios.defaults.baseURL = 'http://localhost:3001/'
 
 function App() {
   return (

@@ -12,7 +12,7 @@ import {
 // Async Actions
 export const getAllPokemons = () => {
     return function(dispatch){
-        axios.get('http://localhost:3001/pokemons')
+        axios.get('/pokemons')
         .then(resp => dispatch({type: GET_ALL_POKEMONS, payload: resp.data}))
         .catch(error => console.log(error))
 
@@ -25,7 +25,7 @@ export const getAllPokemons = () => {
 
 export const getPokemonById = (id) => {
     return function(dispatch){
-        axios.get(`http://localhost:3001/pokemons/${id}`)
+        axios.get(`/pokemons/${id}`)
         .then(resp => dispatch({type: GET_POKEMON_BY_ID, payload: resp.data}))
         .catch(error => console.log(error))
 
@@ -38,7 +38,7 @@ export const getPokemonById = (id) => {
 
 export const getPokemonByName = (name) => {
     return function(dispatch){
-        axios.get(`http://localhost:3001/pokemons?name=${name}`)
+        axios.get(`/pokemons?name=${name}`)
         .then(resp => dispatch({type: GET_POKEMON_BY_NAME, payload: resp.data}))
         .catch(error => console.log(error))
 
@@ -51,7 +51,7 @@ export const getPokemonByName = (name) => {
 
 export const getTypes = () => {
     return function(dispatch){
-        axios.get('http://localhost:3001/types')
+        axios.get('/types')
         .then(resp => dispatch({type: GET_TYPES, payload: resp.data}))
         .catch(error => console.log(error))
 
@@ -64,7 +64,7 @@ export const getTypes = () => {
 
 export const createPokemon = (pokemon) => {
     return function (dispatch){
-        axios.post('http://localhost:3001/pokemons',pokemon)
+        axios.post('/pokemons',pokemon)
         .then(resp => dispatch({type: CREATE_POKEMON, payload: resp.data}))
         .catch(error => console.log(error))
     }
